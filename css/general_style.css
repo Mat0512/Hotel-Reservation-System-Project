@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #c4c4c4;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #fff;
+}
+
+section,
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.header {
+	font-size: 45px;
+}
+
+.sub-header {
+	font-size: 36px;
+}
+
+.wrapper {
+	width: 1000px;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+footer {
+	padding: 60px 0;
+	text-align: left;
+	background-color: #262626;
+}
+
+footer .sitemap,
+footer .contacts {
+	width: 50%;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+footer .sitemap .header {
+	font-size: 36px;
+}
+
+footer .sitemap .sub-header {
+	margin-top: 10px;
+	font-size: 24px;
+}
+footer .sitemap ul {
+	font-size: 20px;
+	margin: 20px 0;
+}
+footer .sitemap ul li {
+	line-height: 30px;
+	font-size: 16px;
+}
+
+footer .logo {
+	width: 160px;
+	height: auto;
+}
+
+footer .contacts ul {
+	margin: 20px 0;
+}
+
+footer .contacts ul li,
+footer .contacts:last-child {
+	line-height: 25px;
+}
+
+footer .contacts ul li img {
+	width: 18px;
+	height: auto;
+	margin-right: 5px;
+}
+
+.copyright {
+	text-align: left;
+	padding: 20px 150px;
+	width: 100%;
+	background-color: #1e1d1d;
+}
+.copyright p {
+	font-size: 12px;
+}
