@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<header>
-			<div class="dummy-logo"></div>
+			<img class="logo" src="./images/logo.svg" alt="logo" />
 			<nav>
 				<ul>
 					<li href="#">Home</li>
@@ -19,48 +19,94 @@
 				</ul>
 			</nav>
 		</header>
+
 		<section class="hero-title-section">
-			<h1>Hero Title Example</h1>
-			<p>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
-				aperiam, ullam quam officia a eligendi dolorum libero labore
-				vero. Voluptas sed unde rem quis perferendis inventore accusamus
-				ratione veritatis quam!
-			</p>
-		</section>
-		<section class="about-us-section">
-			<div class="image-slider"></div>
-			<div class="Description">
-				<h2>About us</h2>
-				<p>Our Accomodation</p>
+			<div class="title-and-description">
+				<h1>Hero Title Example</h1>
 				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-					Nemo impedit quidem non, blanditiis nam beatae numquam, modi
-					cupiditate sapiente fuga dicta perspiciatis facere,
-					voluptatibus totam ducimus. Inventore consequatur vitae
-					voluptates.
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+					aperiam, ullam quam officia a eligendi dolorum libero labore
+					vero. Voluptas sed unde rem quis perferendis inventore
+					accusamus ratione veritatis quam!
 				</p>
-				<button>Show Rooms</button>
 			</div>
 		</section>
-		<section class="find-a-room-section">
-			<h2>Find a Room</h2>
-			<form action="">
-				<label for="arrival-date"> Arrival Date </label>
-				<input type="date" id="arrival-date" />
-				<label for="departure-date"> Departure Date </label>
-				<input type="date" id="departure-date" />
-				<label for="adult-count"> No. of Adult </label>
-				<input type="number" id="adult-count" min="0" max="4" />
-				<label for="children-count"> No. of Children </label>
-				<input type="number" id="children-count" min="0" max="4" />
-			</form>
+
+		<section class="about-us-section">
+			<div class="wrapper flex-row about-us-wrapper">
+				<div class="image-slider">
+					<img src="./images/hotel_room.png" alt="room" />
+				</div>
+				<div class="text-group flex-column">
+					<div>
+						<h2 class="header">Discover Adonis Hotel</h2>
+						<p class="sub-header">Our Accomodation</p>
+					</div>
+					<p id="description">
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						elit. Nemo impedit quidem non, blanditiis nam beatae
+						numquam, modi cupiditate sapiente fuga dicta
+						perspiciatis facere, voluptatibus totam ducimus.
+						Inventore consequatur vitae voluptates.
+					</p>
+					<button>Show Rooms</button>
+				</div>
+			</div>
 		</section>
+
+		<section class="find-a-room-section">
+			<div class="wrapper">
+				<div class="headings">
+					<h3 class="header">Find a Room</h3>
+					<p class="sub-header">
+						Searches rooms corresponds to your needs
+					</p>
+				</div>
+				<form action="">
+					<div class="flex-row form-wrapper">
+						<div class="flex-column form-control">
+							<label for="arrival-date"> Arrival Date </label>
+							<input type="date" id="arrival-date" />
+						</div>
+						<div class="flex-column form-control">
+							<label for="departure-date"> Departure Date </label>
+							<input type="date" id="departure-date" />
+						</div>
+						<div class="flex-column form-control">
+							<label for="adult-count"> No. of Adult </label>
+							<input
+								type="number"
+								id="adult-count"
+								min="0"
+								max="4"
+							/>
+						</div>
+						<div class="flex-column form-control">
+							<label for="children-count">
+								No. of Children
+							</label>
+							<input
+								type="number"
+								id="children-count"
+								min="0"
+								max="4"
+							/>
+						</div>
+					</div>
+					<div id="find-room-button">
+						<input type="submit" value="Find Room" />
+					</div>
+				</form>
+			</div>
+		</section>
+
 		<footer>
-			<div class="sitemap">
-				<div>
-					<h2>Sitemap</h2>
-					<p>All Website Pages</p>
+			<div class="wrapper flex-row">
+				<div class="sitemap flex-column">
+					<div class="header">
+						<h4 class="header">Sitemap</h4>
+						<p class="sub-header">All Website Pages</p>
+					</div>
 					<ul>
 						<li href="#">Home</li>
 						<li href="#">Accomodation</li>
@@ -68,21 +114,30 @@
 						<li href="#">Contact Us</li>
 					</ul>
 				</div>
-			</div>
-			<div class="contacts-section">
-				<div class="dummy-logo"></div>
-				<ul>
-					<li>+63 (XXX) YYY ZZZ</li>
-					<li>emailname@email.com</li>
-				</ul>
-				<div>
-					Street Number + Street Name Barangay/District + City ZIP
-					Code + Metro Manila
-				</div>
-				<div class="copyright">
-					<p>&copy; Copyright 2021 All Rights Reserve Company Name</p>
+				<div class="contacts flex-column">
+					<img class="logo" src="./images/logo.svg" alt="logo" />
+					<ul>
+						<li>
+							<img
+								src="./images/phone_icon.svg"
+								alt="phone icon"
+							/>
+							+63 (XXX) YYY ZZZ
+						</li>
+						<li>
+							<img src="./images/mail_icon.svg" alt="mail icon" />
+							emailname@email.com
+						</li>
+					</ul>
+					<div>
+						Street Number + Street Name <br />Barangay/District +
+						City ZIP <br />Code + Metro Manila
+					</div>
 				</div>
 			</div>
 		</footer>
+		<div class="copyright">
+			<p>&copy; Copyright 2021 All Rights Reserve Company Name</p>
+		</div>
 	</body>
 </html>
