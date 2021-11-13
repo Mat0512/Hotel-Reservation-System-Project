@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
 * {
 	margin: 0;
@@ -7,10 +8,60 @@
 }
 
 body {
-	background: #c4c4c4;
 	text-align: center;
 	font-family: "Roboto", sans-serif;
 	color: #fff;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	padding: 20px 0;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 150px;
+}
+
+nav {
+	width: 660px;
+	font-family: "EB Garamond", serif;
+}
+ul {
+	margin-top: 20px;
+	list-style-type: none;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.dark-nav {
+	height: 100px;
+	background: #0c1310;
+	padding: 15px;
+}
+
+.dark-nav img {
+	width: 110px;
+}
+.dark-nav ul {
+	font-size: 16px;
+	margin-top: 10px;
 }
 
 section,
@@ -22,16 +73,26 @@ footer {
 }
 
 .header {
-	font-size: 45px;
+	font-size: 36px;
 }
 
 .sub-header {
-	font-size: 36px;
+	font-size: 30px;
+}
+
+.main-wrapper {
+	width: 100%;
+	margin-top: 100px;
+	color: #2e2e2e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .wrapper {
 	width: 1000px;
 }
+
 .flex-column {
 	display: flex;
 	flex-direction: column;
@@ -45,7 +106,7 @@ footer {
 footer {
 	padding: 60px 0;
 	text-align: left;
-	background-color: #262626;
+	background-color: #0f0e0e;
 }
 
 footer .sitemap,
@@ -56,15 +117,14 @@ footer .contacts {
 }
 
 footer .sitemap .header {
-	font-size: 36px;
+	font-size: 24px;
 }
 
 footer .sitemap .sub-header {
 	margin-top: 10px;
-	font-size: 24px;
+	font-size: 18px;
 }
 footer .sitemap ul {
-	font-size: 20px;
 	margin: 20px 0;
 }
 footer .sitemap ul li {
@@ -73,7 +133,7 @@ footer .sitemap ul li {
 }
 
 footer .logo {
-	width: 160px;
+	width: 120px;
 	height: auto;
 }
 

@@ -1,36 +1,4 @@
-header {
-	width: 100%;
-	position: fixed;
-	padding: 20px 0;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.logo {
-	width: 150px;
-}
-
-nav {
-	margin-top: 20px;
-	width: 660px;
-}
-ul {
-	list-style-type: none;
-}
-
-nav ul {
-	display: flex;
-	justify-content: space-evenly;
-	font-size: 20px;
-}
-
 /* hero section*/
-
 .hero-title-section {
 	background: url(../images/hero_section_img_bg.jpg);
 	background-repeat: no-repeat;
@@ -47,7 +15,7 @@ nav ul {
 }
 
 .hero-title-section .title-and-description h1 {
-	font-size: 60px;
+	font-size: 48px;
 }
 
 .hero-title-section .title-and-description p {
@@ -56,7 +24,6 @@ nav ul {
 }
 
 /*about us section*/
-
 .about-us-section {
 	background-color: #0c1310;
 	padding: 100px 0;
@@ -75,7 +42,6 @@ nav ul {
 .about-us-wrapper .text-group {
 	text-align: left;
 	width: 60%;
-	height: 320px;
 	justify-content: space-between;
 	align-items: flex-start;
 }
@@ -86,6 +52,7 @@ nav ul {
 
 .about-us-wrapper .text-group #description {
 	font-size: 18px;
+	margin: 20px 0 35px 0;
 }
 
 .about-us-wrapper .text-group button {
@@ -95,8 +62,8 @@ nav ul {
 	border-style: none;
 	width: 180px;
 }
-/*find a room section*/
 
+/*find a room section*/
 .find-a-room-section {
 	padding: 60px;
 	background: #fff;

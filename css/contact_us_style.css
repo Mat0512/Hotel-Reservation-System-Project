@@ -1,0 +1,32 @@
+.wrapper {
+	justify-content: center;
+}
+
+#contact-us-wrapper {
+	padding: 100px 0;
+}
+
+.contacts {
+	width: 40%;
+	text-align: left;
+	justify-content: space-around;
+}
+
+.contacts-col .contact-details {
+	display: flex;
+	justify-content: baseline;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 5px 0;
+}
+
+.contacts-col img {
+	width: 24px;
+	margin-right: 10px;
+}
+
+.map {
+	width: 50%;
+	height: 320px;
+	background-color: #c4c4c4;
+}
