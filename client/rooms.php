@@ -4,26 +4,26 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/general_style.css" />
-		<link rel="stylesheet" href="./css/accomodation_paege_style.css" />
-		<title>Document</title>
+		<link rel="stylesheet" href="../css/general_style.css" />
+		<link rel="stylesheet" href="../css/accomodation_paege_style.css" />
+		<title>Accomodations</title>
 	</head>
 	<body>
 		<header class="dark-nav">
-			<img class="logo" src="./images/logo.svg" alt="logo" />
+			<img class="logo" src="../images/logo.svg" alt="logo" />
 			<nav class="flex-column">
 				<ul>
 					<li>
-						<a href="Index.html">Home</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li>
-						<a href="Accomodations.html">Accomodation</a>
+						<a href="rooms.php">Rooms</a>
 					</li>
 					<li>
-						<a href="Book_Now.html">Book Now</a>
+						<a href="book_now.php">Book Now</a>
 					</li>
 					<li>
-						<a href="Contact_Us.html">Contact Us</a>
+						<a href="contact_us.php">Contact Us</a>
 					</li>
 				</ul>
 			</nav>
@@ -31,7 +31,7 @@
 		<main class="main-wrapper">
 			<div class="wrapper flex-row">
 				<div class="room-image">
-					<img src="./images/hotel_room.png" alt="hotel_room" />
+					<img src="../images/hotel_room.png" alt="hotel_room" />
 				</div>
 				<div class="room-description">
 					<div class="headings">
@@ -52,7 +52,7 @@
 			</div>
 			<div class="wrapper flex-row inverted-flex">
 				<div class="room-image">
-					<img src="./images/hotel_room.png" alt="hotel_room" />
+					<img src="../images/hotel_room.png" alt="hotel_room" />
 				</div>
 				<div class="room-description">
 					<div class="headings">
@@ -73,7 +73,7 @@
 			</div>
 			<div class="wrapper flex-row">
 				<div class="room-image">
-					<img src="./images/hotel_room.png" alt="hotel_room" />
+					<img src="../images/hotel_room.png" alt="hotel_room" />
 				</div>
 				<div class="room-description">
 					<div class="headings">
@@ -94,44 +94,8 @@
 			</div>
 		</main>
 
-		<footer>
-			<div class="wrapper flex-row">
-				<div class="sitemap flex-column">
-					<div class="header">
-						<h4 class="header">Sitemap</h4>
-						<p class="sub-header">All Website Pages</p>
-					</div>
-					<ul>
-						<li href="#">Home</li>
-						<li href="#">Accomodation</li>
-						<li href="#">Book Now</li>
-						<li href="#">Contact Us</li>
-					</ul>
-				</div>
-				<div class="contacts flex-column">
-					<img class="logo" src="./images/logo.svg" alt="logo" />
-					<ul>
-						<li>
-							<img
-								src="./images/phone_icon.svg"
-								alt="phone icon"
-							/>
-							+63 (XXX) YYY ZZZ
-						</li>
-						<li>
-							<img src="./images/mail_icon.svg" alt="mail icon" />
-							emailname@email.com
-						</li>
-					</ul>
-					<div>
-						Street Number + Street Name <br />Barangay/District +
-						City ZIP <br />Code + Metro Manila
-					</div>
-				</div>
-			</div>
-		</footer>
-		<div class="copyright">
-			<p>&copy; Copyright 2021 All Rights Reserve Company Name</p>
-		</div>
+		<?php 
+			include 'footer.php'
+		?>		
 	</body>
 </html>
