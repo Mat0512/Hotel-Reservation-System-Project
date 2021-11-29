@@ -65,6 +65,6 @@
 		<?php 
 			include 'footer.php';
 		?>
-		<script src="../js/eventScript.js"></script>
+		<script src="../js/searchRoomEvent.js"></script>
 	</body>
 </html>

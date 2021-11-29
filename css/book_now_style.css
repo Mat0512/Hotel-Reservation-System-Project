@@ -1,0 +1,56 @@
+.result-section {
+	width: 100%;
+	height: auto;
+	background-color: #f6f6f6;
+}
+
+.result-card {
+	padding: 50px 0;
+	color: #2e2e2e;
+	justify-content: space-between;
+}
+
+.room-image img {
+	height: 220px;
+	width: auto;
+}
+
+.result-description {
+	height: auto;
+	text-align: left;
+	padding: 0 30px;
+}
+
+.room-name {
+	color: #3aafb7;
+	font-weight: bold;
+}
+.room-details-1 p {
+	font-size: 20px;
+}
+
+.room-details-1 {
+	padding: 5px 0;
+}
+
+.room-details-2 {
+	margin-top: 10px;
+}
+
+.cost {
+	margin-top: 10px;
+}
+
+.book-now-button {
+	align-items: flex-end;
+	margin-bottom: 5px;
+}
+
+button {
+	width: 180px;
+	padding: 12px 0;
+	font-size: 18px;
+	background: #61a8fc;
+	color: white;
+	border: none;
+}

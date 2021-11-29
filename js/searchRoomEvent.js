@@ -1,13 +1,10 @@
-const availableRooms = {
-	
-};
-
-const 
+const availableRooms = {};
 
 //filter result functions
 
 // should create a card result contating room detatils and the total cost(price * stay),
 // and a button redirecting to reservation form
+
 const resolveCallBack = (message) => {
 	console.log(message);
 };
@@ -42,7 +39,6 @@ const fetchRoomAvailability = (onProgressCallback) => {
 		xhr.send(formData);
 	});
 };
-
 
 const handleSearchButtonClick = (event) => {
 	event.preventDefault();

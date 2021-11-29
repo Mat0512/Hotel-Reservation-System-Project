@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
+
+body {
+	background-color: #fffefe;
+	font-family: "Tinos", serif;
+	font-weight: 600;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.wrapper {
+	width: 700px;
+	padding: 0 50px;
+	text-align: left;
+	color: #1d1d1d;
+}
+
+.header {
+	font-size: 36px;
+}
+
+.sub-header {
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.logo {
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.logo img {
+	width: 150px;
+	height: auto;
+}
+
+form {
+	width: 100%;
+	margin: 20px 0 40px 0;
+}
+
+.form-control {
+	width: inherit;
+}
+
+.input-group {
+	justify-content: left;
+	margin-top: 10px;
+}
+label {
+	margin-bottom: 5px;
+}
+
+input {
+	padding: 5px;
+}
+
+.personal-info-inputs {
+	justify-content: space-between;
+}
+
+.fname-lname-input-width {
+	width: 49%;
+}
+
+.address-city-country-input-width {
+	width: 32%;
+}
+
+.email-input-width {
+	width: 58%;
+}
+
+.phone-input-width {
+	width: 40%;
+}
+
+#room-name,
+#arrival-date,
+#departure-date,
+#adult-count,
+#child-count,
+#price-rate,
+#stay,
+#total-cost {
+	border: none;
+}
+
+.submit-button {
+	background-color: #62a6f6;
+	padding: 15px;
+	font-size: 18px;
+	color: white;
+	width: 230px;
+	border: none;
+	cursor: pointer;
+	margin-top: 25px;
+}
